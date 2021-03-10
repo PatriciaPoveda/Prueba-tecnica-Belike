@@ -26,10 +26,6 @@ const Login = (props) => {
       confirmPassword: confirmPassword,
     });
   };
-  // const isDisabled = () => {
-  //   userName !== "" && password !== "" && confirmPassword !== "";
-  //   return true;
-  // };
   return (
     <>
       <main className="main">

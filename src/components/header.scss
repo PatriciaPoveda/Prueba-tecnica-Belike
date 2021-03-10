@@ -4,7 +4,14 @@
   width: 100%;
   top: 0;
   height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   &--logo {
     width: 150px;
+  }
+  &--userName {
+    margin-right: 30px;
+    font-size: 22px;
   }
 }

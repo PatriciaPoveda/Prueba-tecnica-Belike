@@ -9,6 +9,7 @@ const Header = (props) => {
         alt="Logo de Belike"
         className="header__bar--logo"
       />
+      <p className="header__bar--userName">{props.userData}</p>
     </header>
   );
 };
